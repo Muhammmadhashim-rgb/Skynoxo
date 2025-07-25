@@ -1,0 +1,13 @@
+/* Header.css */
+
+.header {
+   display: flex;
+   width: 5.4375rem;
+   height: 56.875rem;
+   padding: 1.25rem 0;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 1.25rem;
+   background: #0E1421;
+   
+}
