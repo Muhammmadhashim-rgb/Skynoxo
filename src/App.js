@@ -7,9 +7,8 @@ function App() {
    
    
   return (
-    <div className='body' style={{backgroundColor: `#060C1A`, minHeight: '100vh'}}>
+    <div>
      <Header/>
-     
     </div>
   )
 }

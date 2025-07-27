@@ -1,0 +1,47 @@
+/* Toggle container */
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Actual switch background */
+.switch {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Hidden checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Round slider */
+.slider {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 21px;
+  width: 21px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+/* If checkbox is checked, move the circle right */
+.switch input:checked + .slider {
+  transform: translateX(25px);
+  background-color: white;
+}
+
+/* Optional: switch background when checked */
+.switch input:checked ~ .switch {
+  background-color: #4caf50;
+}
