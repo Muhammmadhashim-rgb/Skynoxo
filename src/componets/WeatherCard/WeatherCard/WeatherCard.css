@@ -1,22 +1,21 @@
 .background {
-   display: flex;
-   width: 42.25rem;
-   height: 23.0625rem;
-   padding: 1.8125rem 1.6875rem;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 6.25rem;
-   position: absolute;
-   top: 8rem;
-   left: 10rem;
-   background-color: #0E1421;
-   border-radius: 2rem;
+    display: flex;
+    width: 42.25rem;
+    height: 23.0625rem;
+    padding: 1.8125rem 1.6875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6.25rem;
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+    background-color: #0E1421;
+    border-radius: 2rem;
 }
 
 .loction {
-    display: flex
-;
-    width: 7.4375rem;
+    display: flex;
+    width: auto;
     height: 2.5rem;
     padding: 0.5rem;
     gap: 0.8125rem;
@@ -25,10 +24,111 @@
 }
 
 .loction h1 {
-   color: #FFF;
-   font-family: Inter;
-   font-size: 1rem;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 1rem;
+}
+
+.loction img {
+    position: relative;
+    left: 0.3rem;
+}
+
+.day {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dataa {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.temperture {
+    position: absolute;
+    bottom: 3.5rem;
+}
+
+.dayData {
+    position: absolute;
+    bottom: 11rem;
+}
+
+
+.units {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.highLow {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cloud {
+    position: absolute;
+    bottom: 6rem;
+    left: 10rem;
+}
+
+
+.cloudSmall {
+    position: absolute;
+    top: 6rem;
+    left: 20rem;
+    width: 2rem;
+    height: auto;
+}
+
+.sunny_cloudy {
+    position: absolute;
+    bottom: 3rem;
+    left: 25rem;
+}
+
+.feel {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.highLow {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.feel_weather {
+    position: absolute;
+    top: 3rem;
+    left: 31rem;
+
 }
