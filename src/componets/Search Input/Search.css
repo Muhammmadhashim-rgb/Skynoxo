@@ -1,0 +1,31 @@
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 32.375rem;
+  height: 3.1875rem;
+  border-radius: 3.125rem;
+  background: #0E1421;
+  padding-left: 3rem; /* space for icon */
+  position: absolute;
+  left: 11rem;
+}
+
+.SearchInput {
+  flex: 1;
+  height: 100%;
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1.3rem;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
