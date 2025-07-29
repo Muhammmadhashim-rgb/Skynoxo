@@ -88,23 +88,23 @@
 
 .cloud {
     position: absolute;
-    bottom: 6rem;
-    left: 10rem;
+    bottom: 10rem;
+    left: 11rem;
 }
 
 
 .cloudSmall {
     position: absolute;
-    top: 6rem;
-    left: 20rem;
+    top: 20rem;
+    left: 22rem;
     width: 2rem;
     height: auto;
 }
 
 .sunny_cloudy {
     position: absolute;
-    bottom: 3rem;
-    left: 25rem;
+    bottom: 7rem;
+    left: 26rem;
 }
 
 .feel {
@@ -127,8 +127,8 @@
 
 
 .feel_weather {
-    position: absolute;
-    top: 3rem;
-    left: 31rem;
+     position: absolute;
+    top: 17rem;
+    left: 33rem;
 
 }
