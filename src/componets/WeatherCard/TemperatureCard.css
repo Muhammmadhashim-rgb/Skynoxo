@@ -1,14 +1,30 @@
-.temperture {
-  color: white;
-  text-align: center;
+.unit-toggle {
+  display: flex;
+  width: 100px;
+  border-radius: 999px;
+  overflow: hidden;
+
+  border-radius: 3rem;
+  position: absolute;
+  bottom: 15rem;
+  left: 30rem;
 }
 
-.toggleBtn {
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background: #742bec;
-  color: white;
+.toggle-btn {
+  flex: 1;
+  padding: 10px 0;
+  background-color: white;
+  color: #060C1A;
   border: none;
-  border-radius: 20px;
+  font-weight: bold;
   cursor: pointer;
+  transition: 0.3s;
+ 
+
+}
+
+.toggle-btn.active {
+  background-color: #060C1A;
+  color: white;
+   border-radius: 3.125rem;
 }

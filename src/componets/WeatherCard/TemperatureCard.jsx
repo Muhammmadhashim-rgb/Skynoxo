@@ -1,38 +1,57 @@
-// TemperatureCard.jsx
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+import './TemperatureCard.css'
+
 
 function TemperatureCard() {
-  const [isCelsius, setIsCelsius] = useState(true);
+
+  const [isCelsius, setisCelsius] = useState(true)
 
   const celsius = {
-    current: 36,
-    high: 27,
-    low: 10
-  };
-
-  const convertToFahrenheit = (c) => Math.round((c * 9) / 5 + 32);
-
-  const temp = isCelsius ? celsius : {
-    current: convertToFahrenheit(celsius.current),
-    high: convertToFahrenheit(celsius.high),
-    low: convertToFahrenheit(celsius.low)
+    current: 11,
+    high: 4,
+    low: 1
   }
 
-  return (
-    <div className="temperture">
-      <h1 className='units'>
-        {temp.current}°{isCelsius ? 'C' : 'F'}
-      </h1>
-      <span className='highLow'>
-        <strong>High:</strong> {temp.high}°{isCelsius ? 'C' : 'F'} &nbsp;|&nbsp;
-        <strong>Low:</strong> {temp.low}°{isCelsius ? 'C' : 'F'}
-      </span>
-      <br />
-      <button onClick={() => setIsCelsius(!isCelsius)} className='toggleBtn'>
-        Show °{isCelsius ? 'F' : 'C'}
-      </button>
-    </div>
-  );
+  const convetFahrenheit = (c) => Math.round((c * 9) / 5 + 32)
+
+  const temp = isCelsius ? celsius : {
+    current: convetFahrenheit(celsius.current),
+    high: convetFahrenheit(celsius.high),
+    low: convetFahrenheit(celsius.low)
+  }
+
+ return (
+
+  <div className='temperture'>
+    <h1 className='units'>
+      {temp.current}°{isCelsius ? 'C' : 'F'}
+    </h1>
+    <span className='highLow'>
+      High:{temp.high}°{isCelsius ? 'C' : 'F'}  &nbsp;|&nbsp;
+      Low:{temp.low}°{isCelsius ? 'C' : 'F'}
+    </span>
+
+
+  <div className="unit-toggle">
+  <button 
+    className={`toggle-btn ${isCelsius ? '' : 'active'}`} 
+    onClick={() => setisCelsius(false)}>
+    F
+  </button>
+  <button 
+    className={`toggle-btn ${isCelsius ? 'active' : ''}`} 
+    onClick={() => setisCelsius(true)}>
+    C
+  </button>
+</div>
+
+  
+  </div>
+
+
+
+
+  )
 }
 
-export default TemperatureCard;
+export default TemperatureCard
