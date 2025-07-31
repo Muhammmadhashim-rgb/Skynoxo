@@ -11,6 +11,7 @@
    left: 12%;
    background-color: #0E1421;
    border-radius: 2rem;
+
 }
 
 
@@ -21,17 +22,83 @@
    font-style: normal;
    font-weight: 300;
    line-height: normal;
+   position: absolute;
+   left: 3rem;
 }
 
 
 .oneHoureForecast {
    display: flex;
-   height: 9.375rem;
+   height: 9rem;
    padding: 0.9375rem 1.0625rem;
-   flex-direction: column;
+   flex-direction: row;
    align-items: flex-start;
-   gap: 6.25rem;
+   justify-content: center;
+   gap: 1.5%;
    align-self: stretch;
+   position: absolute;
+   top: 5rem;
+   width: 25rem;
+   left: 3rem;
    border-radius: 1.875rem;
    background: linear-gradient(255deg, rgba(14, 20, 33, 0.50) 0.78%, rgba(29, 50, 95, 0.50) 50.49%, rgba(14, 20, 33, 0.50) 99.22%);
+}
+
+
+.tomorrow_Forecast {
+   width: 25.5rem;
+   height: 4.9375rem;
+   border-radius: 1.5625rem;
+   background: linear-gradient(255deg, rgba(14, 20, 33, 0.50) 0.78%, rgba(29, 50, 95, 0.50) 50.49%, rgba(14, 20, 33, 0.50) 99.22%);
+   position: absolute;
+   top: 71%;
+   left: 3rem;
+   display: flex;
+   align-items: center;
+}
+
+.tomorrow_Forecast_heading {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 0.875rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   position: absolute;
+   top: 30%;
+   left: 2rem;
+
+
+}
+
+.tomorrow_Forecast_para {
+   color: #676B73;
+   font-family: Inter;
+   font-size: 0.6875rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   position: absolute;
+   top: 56%;
+   left: 2rem;
+}
+
+
+.tomorrow_Forecast_unit {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 2.4rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   position: absolute;
+   left: 30%;
+
+}
+
+.thunderstorm_cloud {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    left: 60%;
 }

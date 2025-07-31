@@ -1,0 +1,50 @@
+.timeForacast_card {
+   display: flex;
+   width: 2.9375rem;
+   height: 7.3125rem;
+   padding: 0.625rem 0.5rem;
+
+   gap: 6.25rem;
+   border-radius: 0.9375rem;
+   border: 0.5px solid rgba(234, 234, 234, 0.54);
+   background: rgba(255, 255, 255, 0.06);
+   box-shadow: 5px 6px 6.8px 1px rgba(0, 0, 0, 0.17);
+   transition: all 0.3s ease-out;
+   justify-content: center;
+}
+
+
+.timeForacast_card:hover {
+   background: rgba(255, 255, 255, 0.15);
+   /* transform: translateY(-1px) scale(1.2); */
+   box-shadow: inset 3px 3px 7.5px 0 rgba(0, 0, 0, 0.53);
+}
+
+
+
+.Foracast_time {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 0.875rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.timeForacast_cloud {
+   height: 1.875rem;
+   align-self: stretch;
+   position: absolute;
+   top: 43%;
+}
+
+.timeForacast_unit {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 0.875rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   position: absolute;
+   top: 74%;
+}
