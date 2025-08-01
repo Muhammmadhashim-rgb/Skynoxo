@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Forecast.css';  // ✅ CSS File Imported
 import TimeForecast from './TimeForacast';
+import TimeForecastSide from './TimeForecastSide';
+
 
 
 export default class Forecast extends Component {
@@ -28,6 +30,15 @@ export default class Forecast extends Component {
             14°
          </h2>
          <img className='thunderstorm_cloud' src="/images/thunderstorm_cloud.gif" alt="" />
+            </div>
+
+            <div className="timeForecast">
+               <TimeForecastSide heading="Sunrise"/>
+               <TimeForecastSide time="6:45"/>
+               <TimeForecastSide ampm="AM"/>
+                  <TimeForecastSide heading="Sunrise"/>
+                   <TimeForecastSide time="6:45"/>
+               <TimeForecastSide ampm="AM"/>
             </div>
          </div>
 

@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 6.25rem;
-    position: absolute;
+    position: relative;
     top: 8.5rem;
     left: 10rem;
     background-color: #0E1421;
@@ -58,13 +58,13 @@
 }
 
 .temperture {
-    position: absolute;
+    position: relative;
     bottom: 3.5rem;
     left: 3rem;
 }
 
 .dayData {
-    position: absolute;
+    position: relative;
     bottom: 11rem;
     left: 3rem;
 }
@@ -90,14 +90,14 @@
 }
 
 .cloud {
-    position: absolute;
+    position: relative;
     bottom: 9.5rem;
     left: 12rem;
 }
 
 
 .cloudSmall {
-    position: absolute;
+    position: relative;
     width: 2rem;
     height: auto;
     bottom: 20px;
@@ -105,7 +105,7 @@
 }
 
 .sunny_cloudy {
-    position: absolute;
+    position: relative;
     bottom: 6rem;
     left: 26rem;
 }
@@ -130,7 +130,7 @@
 
 
 .feel_weather {
-    position: absolute;
+    position: relative;
     top: 17rem;
     left: 32rem;
 

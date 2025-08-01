@@ -7,7 +7,7 @@
   border-radius: 3.125rem;
   background: #0E1421;
   padding-left: 3rem; /* space for icon */
-  position: absolute;
+  position: relative;
   left: 11rem;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .search-icon {
-  position: absolute;
+  position: relative;
   left: 1.3rem;
   width: 20px;
   height: 20px;
