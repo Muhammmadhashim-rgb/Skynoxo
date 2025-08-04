@@ -34,7 +34,7 @@
 .timeForacast_cloud {
    height: 1.875rem;
    align-self: stretch;
-   position: relative;
+   position: absolute;
    top: 43%;
 }
 
@@ -45,6 +45,11 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   position: relative;
+   position: absolute;
    top: 74%;
 }
+
+
+
+
+

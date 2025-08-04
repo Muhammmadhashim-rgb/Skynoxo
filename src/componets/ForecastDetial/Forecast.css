@@ -6,9 +6,9 @@
    flex-direction: column;
    align-items: flex-start;
    gap: 6.25rem;
-   position: relative;
-   top: 87%;
-   left: 12%;
+   position: absolute;
+   top: 72%;
+   left: 10%;
    background-color: #0E1421;
    border-radius: 2rem;
 
@@ -22,7 +22,7 @@
    font-style: normal;
    font-weight: 300;
    line-height: normal;
-   position: relative;
+   position: absolute;
    left: 3rem;
 }
 
@@ -36,7 +36,7 @@
    justify-content: center;
    gap: 1.5%;
    align-self: stretch;
-   position: relative;
+   position: absolute;
    top: 5rem;
    width: 25rem;
    left: 3rem;
@@ -50,11 +50,13 @@
    height: 4.9375rem;
    border-radius: 1.5625rem;
    background: linear-gradient(255deg, rgba(14, 20, 33, 0.50) 0.78%, rgba(29, 50, 95, 0.50) 50.49%, rgba(14, 20, 33, 0.50) 99.22%);
-   position: relative;
+   position: absolute;
    /* top: 71%;
    left: 3rem; */
    display: flex;
    align-items: center;
+   margin-top: 35%;
+   left: 3rem;
 }
 
 .tomorrow_Forecast_heading {
@@ -64,9 +66,11 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   position: relative;
+   position: absolute;
    /* top: 30%;
    left: 2rem; */
+   top: 1rem;
+   left: 10%;
 
 
 }
@@ -78,9 +82,12 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   position: relative;
+   position: absolute;
    /* top: 56%;
    left: 2rem; */
+   top: 2.5rem ;
+   left: 10%;
+
 }
 
 
@@ -91,8 +98,8 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   position: relative;
-   /* left: 30%; */
+   position: absolute;
+   left: 35%;
 
 }
 
@@ -101,21 +108,136 @@
    position: relative;
    width: 28%;
    height: auto;
-   /* left: 69%;
-   bottom: 23%; */
+   left: 65%;
+   bottom: 48%;
 }
 
 .timeForecast {
-   display: flex;
    width: 10rem;
    height: 85%;
    padding: 1.0625rem 1.25rem;
-   align-items: center;
-   gap: 6.25rem;
+   /* align-items: center; */
    border-radius: 1.5625rem;
    background: #14203A;
-   position: relative;
-   /* left: 71%; */
-   
+   position: absolute;
+   left: 71%;
+
 }
 
+
+.timeForecast_heading {
+   color: #676B73;
+   font-family: Inter;
+   font-size: 1.25rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   position: absolute;
+   top: 35px;
+}
+
+
+.timeForecast_time {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 2rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   position: absolute;
+   top: 70px;
+
+}
+
+
+.timeForecast_ampm {
+   color: #676B73;
+   font-family: Inter;
+   font-size: 1.25rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   position: absolute;
+   margin-left: 85px;
+   bottom: 12rem;
+}
+
+
+.timeForecast_heading2 {
+   color: #676B73;
+   font-family: Inter;
+   font-size: 1.25rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   position: absolute;
+   top: 8rem;
+}
+
+
+.timeForecast_time2 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 2rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   position: absolute;
+   top: 10rem;
+
+}
+
+
+.timeForecast_ampm2 {
+   color: #676B73;
+   font-family: Inter;
+   font-size: 1.25rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   position: absolute;
+   margin-left: 85px;
+   bottom: 6.4rem;
+}
+
+
+
+
+.timeForecast_heading3 {
+   color: #676B73;
+   font-family: Inter;
+   font-size: 1.25rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   position: absolute;
+   top: 14rem;
+}
+
+
+.timeForecast_time3 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 1.8rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   position: absolute;
+   top: 16rem;
+
+}
+
+
+.timeForecast_ampm3 {
+   color: #676B73;
+   font-family: Inter;
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   position: absolute;
+   margin-left: 85px;
+   bottom: 0.5rem;
+}
+
+.timeForecastDiv {}

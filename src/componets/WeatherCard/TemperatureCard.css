@@ -5,7 +5,7 @@
   overflow: hidden;
 
   border-radius: 3rem;
-  position: relative;
+  position: absolute;
   bottom: 15rem;
   left: 30rem;
 }
