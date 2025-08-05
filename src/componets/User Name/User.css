@@ -26,15 +26,15 @@
 }
 
 .userHeading {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 8px;
-    margin-right: 125px;
-    margin-left: 5px;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 0.875rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin-top: 8px;
+   margin-right: 125px;
+   margin-left: 5px;
 }
 
 .navbar ul {
@@ -59,23 +59,38 @@
 .dropdown-content {
    display: none;
    position: absolute;
-   background-color: #ffffff;
-   min-width: 150px;
+   min-width: 18.5rem;
    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
    z-index: 1;
    top: 100%;
    right: 0;
+
+   padding: 0.625rem 1rem;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 0.625rem;
+   border-radius: 1.125rem;
+   background: #0E1421;
+   margin-top: 1.8rem;
 }
 
 .dropdown-content a {
-   color: black;
+
    padding: 10px 15px;
    display: block;
    text-decoration: none;
+
+   color: #676B73;
+   font-family: Inter;
+   font-size: 0.875rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
 }
 
 .dropdown-content a:hover {
-   background-color: #f1f1f1;
+   color: #f1f1f1;
 }
 
 .navbar li:hover .dropdown-content {
@@ -84,6 +99,77 @@
 
 
 
-.Dropdown{
+.Dropdown {
    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.Dropdown {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 18.5rem;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%;
+  right: 0;
+  margin-top: 1.8rem;
+  padding: 0.625rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 1.125rem;
+  background: #0E1421;
+}
+
+/* ✅ Show dropdown when checkbox is checked */
+#dropdownToggle:checked + label + .dropdown-content {
+  display: flex;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+  color: #676B73;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dropdown-content a:hover {
+  color: #f1f1f1;
 }
