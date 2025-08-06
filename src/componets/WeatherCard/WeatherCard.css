@@ -6,22 +6,26 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 6.25rem;
-    position: absolute;
+    /* position: absolute;
     top: 8.5rem;
-    left: 10rem;
+    left: 10rem; */
     background-color: #0E1421;
     border-radius: 2rem;
+    margin-top: 42px;
 }
 
 .loction {
     display: flex;
-    width: auto;
-    height: 2.5rem;
-    padding: 0.5rem;
+    /* width: auto;
+    height: 2.5rem; */
+    padding: 0.3rem 0.8rem;
     gap: 0.8125rem;
     border-radius: 3.125rem;
     background: #742BEC;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
+    align-items: center;
+    overflow-wrap: anywhere;
+    max-width: fit-content;
 }
 
 .loction h1 {
@@ -35,7 +39,7 @@
 }
 
 .loction img {
-    
+
     margin-left: 0.3rem;
 }
 
@@ -46,6 +50,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin: 0;
 }
 
 .dataa {
@@ -55,18 +60,20 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0px;
+    margin-top: 6px;
 }
 
 .temperture {
-    position: absolute;
+    /* position: absolute;
     bottom: 3.5rem;
-    left: 3rem;
+    left: 3rem; */
 }
 
 .dayData {
-    position: absolute;
-    bottom: 11rem;
-    left: 3rem;
+    margin-top: 8%;
+
+    position: relative;
 }
 
 
@@ -91,8 +98,8 @@
 
 .cloud {
     position: absolute;
-    bottom: 9.5rem;
-    left: 12rem;
+    left: 160px;
+    top: 50px;
 }
 
 
@@ -100,14 +107,11 @@
     position: absolute;
     width: 2rem;
     height: auto;
-    bottom: 20px;
-    left: 52%
+    bottom: 30%;
 }
 
 .sunny_cloudy {
-    position: absolute;
-    bottom: 6rem;
-    left: 26rem;
+    margin-left: 68px;
 }
 
 .feel {
@@ -117,6 +121,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0;
 }
 
 .highLow {
@@ -130,8 +135,31 @@
 
 
 .feel_weather {
-    position: absolute;
-    top: 17rem;
-    left: 32rem;
+    margin-left: 11.7rem;
 
+}
+
+
+
+.weatherCard_row {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 35px;
+}
+
+
+.weatherCard_col_1 {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    /* location, date, cloud */
+    gap: 1rem;
+    align-items: start;
+}
+
+.weatherCard_col_2 {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    /* location, date, cloud */
+    gap: 1rem;
+    align-items: start;
 }

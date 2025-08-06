@@ -11,14 +11,14 @@ export default class User extends Component {
                   <h1 className='userHeading'>User Name</h1>
 
 
-                  <div class="dropdown">
+                  <div className="dropdown">
                      <input type="checkbox" id="dropdownToggle" hidden />
 
-                     <label for="dropdownToggle">
-                        <img class="Dropdown" src="/images/DropDown.svg" alt="Dropdown Icon" />
+                     <label htmlFor="dropdownToggle">
+                        <img className="Dropdown" src="/images/DropDown.svg" alt="Dropdown Icon" />
                      </label>
 
-                     <div class="dropdown-content">
+                     <div className="dropdown-content">
                         <a href="#">Web Design</a>
                         <a href="#">Development</a>
                         <a href="#">SEO</a>

@@ -13,7 +13,7 @@ export default class Header extends Component {
   render() {
     return (
     
-      <div className="header">
+      <div className="header mx-4 my-5">
         <img className='logo' src="/images/logo.png" alt="App Logo"/>
          <h1 className='logo-text'>Skynoxo</h1>
          <div className="header_icons">

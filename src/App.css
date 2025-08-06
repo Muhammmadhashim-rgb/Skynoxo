@@ -1,0 +1,14 @@
+.main_container {
+   padding: 40px;
+}
+
+.search_and_user {
+   /* display: grid; */
+   /* grid-template-columns: 1fr 1fr; */
+}
+
+.main_row {
+   display: grid;
+   grid-template-columns: 1fr 5fr 4fr;
+   row-gap:10px;
+}

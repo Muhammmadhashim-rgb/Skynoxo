@@ -5,24 +5,23 @@
   height: 3.1875rem;
   border-radius: 3.125rem;
   background: #0E1421;
-  padding-left: 3rem;
-  position: absolute;
-  margin-left: 10%;
+  /* padding-left: 3rem; */
+  /* margin-left: 10%;
+  position: relative; */
 }
 
 .SearchInput {
-  flex: 1;
-  height: 100%;
-  padding: 2.6rem;
-  border: none;
-  outline: none;
-  background: transparent;
-  color: white;
-  font-size: 1rem;
+    height: 100%;
+    /* padding: 2.6rem; */
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    width: 86%;
+    font-size: 1rem;
 }
 
 .search-icon {
-  position: absolute;
   width: 20px;
   height: 20px;
   pointer-events: none;

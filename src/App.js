@@ -13,13 +13,26 @@ function App() {
 
   return (
     <div>
-      <Search />
-      <Header />
-      <WeatherCard />
-      <Forecast />
-      <User />
-      <WeatherDetail />
-    </div>
+      <div className="main_container">
+        <div className="main_row">
+          <div className="header_row">
+            <Header />
+          </div>
+          <div className="search_and_user">
+
+              < Search />
+              < WeatherCard />
+              
+
+            </div>
+          <div className="col-5">
+
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    
   )
 }
 
