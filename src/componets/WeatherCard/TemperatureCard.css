@@ -6,8 +6,8 @@
 
   border-radius: 3rem;
   position: absolute;
-  bottom: 15rem;
-  left: 30rem;
+  bottom: 288px;
+  left: 576px;
 }
 
 .toggle-btn {
@@ -19,12 +19,12 @@
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
- 
+
 
 }
 
 .toggle-btn.active {
   background-color: #060C1A;
   color: white;
-   border-radius: 3.125rem;
+  border-radius: 3.125rem;
 }

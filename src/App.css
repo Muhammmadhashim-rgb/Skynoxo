@@ -9,6 +9,6 @@
 
 .main_row {
    display: grid;
-   grid-template-columns: 1fr 5fr 4fr;
+   grid-template-columns: 1fr 5fr 5fr;
    row-gap:10px;
 }

@@ -5,7 +5,7 @@ import TemperatureCard from './TemperatureCard';  // path adjust karo
 
 export default class WeatherCard extends Component {
   render() {
-    return (
+    return ( 
       <div className=' weatherCard_row background '>
         <div className="weatherCard_col_1">
 
@@ -28,7 +28,7 @@ export default class WeatherCard extends Component {
 
 
         <div className="weatherCard_col_2">
-          <img className='cloudSmall' src="/images/cloud.svg" alt="" />
+         
           <img className='sunny_cloudy' src="/images/sunny_cloudy.svg" alt="" />
           <div className="feel_weather">
             <h1 className='feel'>Cloudy</h1>
@@ -36,6 +36,7 @@ export default class WeatherCard extends Component {
               Feel like 26
             </span>
 
+           <img className='cloudSmall' src="/images/cloud.svg" alt="" />
 
           </div>
         </div>

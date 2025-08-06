@@ -6,9 +6,9 @@
    flex-direction: column;
    align-items: flex-start;
    gap: 6.25rem;
-   position: absolute;
+   /* position: absolute;
    top: 72%;
-   left: 10%;
+   left: 10%; */
    background-color: #0E1421;
    border-radius: 2rem;
 
@@ -22,8 +22,8 @@
    font-style: normal;
    font-weight: 300;
    line-height: normal;
-   position: absolute;
-   left: 3rem;
+   /* position: absolute;
+   left: 3rem; */
 }
 
 
@@ -36,8 +36,8 @@
    justify-content: center;
    gap: 1.5%;
    align-self: stretch;
-   position: absolute;
-   top: 5rem;
+   /* position: absolute;
+   top: 5rem; */
    width: 25rem;
    left: 3rem;
    border-radius: 1.875rem;
@@ -55,8 +55,8 @@
    left: 3rem; */
    display: flex;
    align-items: center;
-   margin-top: 35%;
-   left: 3rem;
+   /* margin-top: 35%; */
+   /* left: 3rem; */
 }
 
 .tomorrow_Forecast_heading {
@@ -66,11 +66,11 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   position: absolute;
+   /* position: absolute; */
    /* top: 30%;
    left: 2rem; */
-   top: 1rem;
-   left: 10%;
+   /* top: 1rem;
+   left: 10%; */
 
 
 }
@@ -82,11 +82,11 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   position: absolute;
+   /* position: absolute;
    /* top: 56%;
    left: 2rem; */
-   top: 2.5rem ;
-   left: 10%;
+   /* top: 2.5rem ;
+   left: 10%; */ 
 
 }
 
@@ -98,18 +98,18 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   position: absolute;
-   left: 35%;
+   /* position: absolute;
+   left: 35%; */
 
 }
 
 
 .thunderstorm_cloud {
-   position: relative;
+   /* position: relative;
    width: 28%;
    height: auto;
    left: 65%;
-   bottom: 38%;
+   bottom: 38%; */
 }
 
 .timeForecast {
@@ -119,8 +119,8 @@
    /* align-items: center; */
    border-radius: 1.5625rem;
    background: #14203A;
-   position: absolute;
-   left: 71%;
+   /* position: absolute;
+   left: 71%; */
 
 }
 
@@ -132,8 +132,8 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   position: absolute;
-   top: 35px;
+   /* position: absolute;
+   top: 35px; */
 }
 
 
@@ -144,8 +144,8 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   position: absolute;
-   top: 70px;
+   /* position: absolute;
+   top: 70px; */
 
 }
 
@@ -157,9 +157,9 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   position: absolute;
+   /* position: absolute;
    margin-left: 85px;
-   bottom: 12rem;
+   bottom: 12rem; */
 }
 
 
@@ -170,8 +170,8 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   position: absolute;
-   top: 8rem;
+   /* position: absolute;
+   top: 8rem; */
 }
 
 
@@ -182,8 +182,8 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   position: absolute;
-   top: 10rem;
+   /* position: absolute;
+   top: 10rem; */
 
 }
 
@@ -195,7 +195,7 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   position: absolute;
+   /* position: absolute; */
    margin-left: 85px;
    bottom: 6.4rem;
 }
@@ -210,8 +210,8 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   position: absolute;
-   top: 14rem;
+   /* position: absolute;
+   top: 14rem; */
 }
 
 
@@ -222,8 +222,8 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   position: absolute;
-   top: 16rem;
+   /* position: absolute;
+   top: 16rem; */
 
 }
 
@@ -235,9 +235,25 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   position: absolute;
+   /* position: absolute; */
    margin-left: 85px;
    bottom: 0.5rem;
 }
 
-.timeForecastDiv {}
+.Forecast-row{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 25px;
+}
+
+
+.forecast-col_1{
+   display: grid;
+   grid-template-columns: auto  auto 1fr;
+   
+}
+
+
+.forecast-col_2{
+
+}

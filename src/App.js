@@ -19,20 +19,18 @@ function App() {
             <Header />
           </div>
           <div className="search_and_user">
-
-              < Search />
-              < WeatherCard />
-              
-
-            </div>
+            < Search />
+            < WeatherCard />
+            < Forecast />
+          </div>
           <div className="col-5">
 
           </div>
         </div>
       </div>
-      </div>
-      
-    
+    </div>
+
+
   )
 }
 
