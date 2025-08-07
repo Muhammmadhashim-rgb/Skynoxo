@@ -1,15 +1,17 @@
 .WeatherDetailBackground {
-   display: flex;
-   width: 33.125rem;
-   height: 27.4375rem;
-   padding: 1rem 1.125rem;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 6.25rem;
-   flex-shrink: 0;
-   border-radius: 1.875rem;
-   background: radial-gradient(50% 50% at 50% 50%, #162850 0%, #121A2D 100%);
+    width: 33.125rem;
+    height: 27.4375rem;
+    padding: 1.5rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6.25rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    background: radial-gradient(50% 50% at 50% 50%, #162850 0%, #121A2D 100%);
     /* position: absolute; */
     /* top: 8.5rem;
     left: 60rem; */
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
 }

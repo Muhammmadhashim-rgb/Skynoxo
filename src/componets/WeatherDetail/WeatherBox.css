@@ -1,7 +1,7 @@
 .boxBackground {
-    display: flex;
-    width: 14.6875rem;
-    height: 10.625rem;
+    /* display: flex; */
+    width: 14rem;
+    height: 12rem;
     padding: 0.625rem 1.25rem;
     align-items: center;
     gap: 6.25rem;
@@ -14,20 +14,20 @@
 
 
 
- .boxHeading {
+.boxHeading {
     color: #FFF;
     font-family: Inter;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
+    /* position: absolute;
     top: 8%;
-    left: 8%;
+    left: 8%; */
 }
 
 
-.boxImage{
-    position: absolute;
-    top: 11%;
+.boxImage {
+    /* position: absolute;
+    top: 11%; */
 }

@@ -6,6 +6,7 @@ import WeatherCard from './componets/WeatherCard/WeatherCard';
 import Forecast from './componets/ForecastDetial/Forecast';
 import User from './componets/User Name/User';
 import WeatherDetail from './componets/WeatherDetail/WeatherDetail';
+import CitiesWeather from './componets/Cities Weather/CitiesWeather';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <div className="col-5">
             < User />
             < WeatherDetail />
+            < CitiesWeather />
           </div>
         </div>
       </div>
