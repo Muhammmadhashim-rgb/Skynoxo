@@ -24,7 +24,8 @@ function App() {
             < Forecast />
           </div>
           <div className="col-5">
-
+            < User />
+            < WeatherDetail />
           </div>
         </div>
       </div>

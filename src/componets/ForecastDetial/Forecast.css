@@ -24,21 +24,21 @@
    line-height: normal;
    /* position: absolute;
    left: 3rem; */
+   margin: 0;
+
 }
 
 
 .oneHoureForecast {
    display: flex;
-   height: 9rem;
+   /* height: 7rem; */
    padding: 0.9375rem 1.0625rem;
    flex-direction: row;
    align-items: flex-start;
    justify-content: center;
-   gap: 1.5%;
+   gap: 6px;
    align-self: stretch;
-   /* position: absolute;
-   top: 5rem; */
-   width: 25rem;
+   /* width: 25rem; */
    left: 3rem;
    border-radius: 1.875rem;
    background: linear-gradient(255deg, rgba(14, 20, 33, 0.50) 0.78%, rgba(29, 50, 95, 0.50) 50.49%, rgba(14, 20, 33, 0.50) 99.22%);
@@ -50,13 +50,15 @@
    height: 4.9375rem;
    border-radius: 1.5625rem;
    background: linear-gradient(255deg, rgba(14, 20, 33, 0.50) 0.78%, rgba(29, 50, 95, 0.50) 50.49%, rgba(14, 20, 33, 0.50) 99.22%);
-   position: absolute;
+   /* position: absolute; */
    /* top: 71%;
    left: 3rem; */
-   display: flex;
+   /* display: flex; */
    align-items: center;
    /* margin-top: 35%; */
    /* left: 3rem; */
+   padding-left: 25px;
+   position: relative;
 }
 
 .tomorrow_Forecast_heading {
@@ -67,11 +69,8 @@
    font-weight: 400;
    line-height: normal;
    /* position: absolute; */
-   /* top: 30%;
-   left: 2rem; */
-   /* top: 1rem;
-   left: 10%; */
-
+   margin: 0;
+   margin-top: 24px;
 
 }
 
@@ -82,11 +81,8 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   /* position: absolute;
-   /* top: 56%;
-   left: 2rem; */
-   /* top: 2.5rem ;
-   left: 10%; */ 
+   margin: 0;
+   margin-top: 3px;
 
 }
 
@@ -98,8 +94,9 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   /* position: absolute;
-   left: 35%; */
+   margin: 0;
+   margin-left: 92px;
+   margin-top: -38px;
 
 }
 
@@ -110,17 +107,22 @@
    height: auto;
    left: 65%;
    bottom: 38%; */
+   width: 110px;
+   height: auto;
+   position: absolute;
+   bottom: 18px;
+   left: 294px;
 }
 
 .timeForecast {
-   width: 10rem;
-   height: 85%;
-   padding: 1.0625rem 1.25rem;
+   width: 9rem;
+   /* height: 85%; */
+   padding: 2rem 1.5rem;
    /* align-items: center; */
    border-radius: 1.5625rem;
    background: #14203A;
-   /* position: absolute;
-   left: 71%; */
+   margin-top: 15px;
+   margin-left: 28px;
 
 }
 
@@ -134,18 +136,21 @@
    line-height: normal;
    /* position: absolute;
    top: 35px; */
+   margin: 0;
+
 }
 
 
 .timeForecast_time {
+
    color: #FFF;
    font-family: Inter;
    font-size: 2rem;
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   /* position: absolute;
-   top: 70px; */
+   margin: 0;
+   margin-top: 20px;
 
 }
 
@@ -157,9 +162,9 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   /* position: absolute;
-   margin-left: 85px;
-   bottom: 12rem; */
+   margin: 0;
+   margin-left: 82px;
+   margin-top: -31px;
 }
 
 
@@ -172,6 +177,8 @@
    line-height: normal;
    /* position: absolute;
    top: 8rem; */
+   margin: 0;
+   margin-top: 24px;
 }
 
 
@@ -182,9 +189,8 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   /* position: absolute;
-   top: 10rem; */
-
+   margin: 0;
+   margin-top: 20px;
 }
 
 
@@ -195,9 +201,9 @@
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   /* position: absolute; */
-   margin-left: 85px;
-   bottom: 6.4rem;
+   margin: 0;
+   margin-left: 82px;
+   margin-top: -31px;
 }
 
 
@@ -212,48 +218,61 @@
    line-height: normal;
    /* position: absolute;
    top: 14rem; */
+   margin: 0;
+   margin-top: 24px;
 }
 
 
 .timeForecast_time3 {
    color: #FFF;
    font-family: Inter;
-   font-size: 1.8rem;
+   font-size: 2rem;
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   /* position: absolute;
-   top: 16rem; */
-
+   margin: 0;
+   margin-top: 20px;
 }
 
 
 .timeForecast_ampm3 {
    color: #676B73;
    font-family: Inter;
-   font-size: 1rem;
+   font-size: 1.25rem;
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   /* position: absolute; */
-   margin-left: 85px;
-   bottom: 0.5rem;
+   margin: 0;
+   margin-left: 82px;
+   margin-top: -31px;
 }
 
-.Forecast-row{
+.Forecast-row {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   gap: 25px;
+   padding: 24px;
+   gap: 10px;
 }
 
 
-.forecast-col_1{
+.forecast-col_1 {
    display: grid;
-   grid-template-columns: auto  auto 1fr;
-   
+   grid-template-rows: auto auto 1fr;
+   gap: 48px;
+   margin-top: 18px;
+   margin-left: 10px;
+
 }
 
 
-.forecast-col_2{
+.forecast-col_2 {
+   display: grid;
+   grid-template-rows: auto auto 1fr;
+}
 
+
+.oneHoureForecast_row {
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto auto;
+   margin-top: -22px;
 }

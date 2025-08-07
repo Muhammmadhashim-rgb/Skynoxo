@@ -9,7 +9,7 @@
    flex-shrink: 0;
    border-radius: 1.875rem;
    background: radial-gradient(50% 50% at 50% 50%, #162850 0%, #121A2D 100%);
-    position: absolute;
-    top: 8.5rem;
-    left: 60rem;
+    /* position: absolute; */
+    /* top: 8.5rem;
+    left: 60rem; */
 }

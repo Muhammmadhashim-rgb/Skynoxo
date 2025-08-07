@@ -1,10 +1,9 @@
 .timeForacast_card {
-   display: flex;
+   display: grid;
    width: 2.9375rem;
-   height: 7.3125rem;
-   padding: 0.625rem 0.5rem;
-
-   gap: 6.25rem;
+   /* height: 7.3125rem; */
+   /* padding: 0.625rem 0.5rem; */
+   gap: 8px;
    border-radius: 0.9375rem;
    border: 0.5px solid rgba(234, 234, 234, 0.54);
    background: rgba(255, 255, 255, 0.06);
@@ -29,12 +28,14 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
+   margin: 0;
+   margin-top: 18px;
 }
 
 .timeForacast_cloud {
    height: 1.875rem;
    align-self: stretch;
-   position: absolute;
+   /* position: absolute; */
    top: 43%;
 }
 
@@ -45,11 +46,7 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
-   position: absolute;
-   top: 74%;
+      margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
 }
-
-
-
-
-

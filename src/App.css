@@ -3,12 +3,13 @@
 }
 
 .search_and_user {
-   /* display: grid; */
+   display: grid;
    /* grid-template-columns: 1fr 1fr; */
+   gap: 28px;
 }
 
 .main_row {
    display: grid;
    grid-template-columns: 1fr 5fr 5fr;
-   row-gap:10px;
+   row-gap: 10px;
 }
