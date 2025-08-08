@@ -10,6 +10,7 @@
    box-shadow: 5px 6px 6.8px 1px rgba(0, 0, 0, 0.17);
    transition: all 0.3s ease-out;
    justify-content: center;
+   cursor: pointer;
 }
 
 

@@ -1,6 +1,6 @@
 .WeatherDetailBackground {
-    width: 33.125rem;
-    height: 27.4375rem;
+    /* width: 33.9rem;
+    height: 27.4375rem; */
     padding: 1.5rem 1.5rem;
     flex-direction: column;
     align-items: flex-start;
@@ -14,4 +14,6 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 15px;
+    margin-left: 65px;
+    margin-top: -12px;
 }

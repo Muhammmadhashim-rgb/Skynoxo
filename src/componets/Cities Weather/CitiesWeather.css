@@ -1,6 +1,11 @@
 .CitiesWeather_row {
     display: grid;
     grid-template-columns: auto auto;
+    width: min-content;
+    margin-left: 90px;
+    margin-top: -14px;
+    gap: 20px;
+    position: relative;
 }
 
 
@@ -12,11 +17,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    /* margin-left: 45px; */
+    margin: 0px;
+    margin-top: 24px;
+
 }
 
 .CitiesWeather_btn {
     display: inline-flex;
-    padding: 0.625rem 0.25rem;
+    padding: 0.625rem 1.25rem;
     justify-content: center;
     align-items: center;
     border-radius: 1.875rem;
@@ -27,5 +36,55 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 130px;
+    /* width: 130px; */
+    margin-left: 100px;
+    cursor: pointer;
+
+}
+
+
+.CitiesCard_uint {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding-left: 32px;
+    padding-top: 28px;
+
+}
+
+.CitiesCard_city {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding-left: 32px;
+    padding-top: 13px;
+
+}
+
+
+.H_L {
+    color: #676B73;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    padding-left: 98px;
+    position: absolute;
+    top: 70px;
+}
+
+.CitiesCard_image {
+    position: absolute;
+    left: 163px;
+    bottom: 12px;
 }

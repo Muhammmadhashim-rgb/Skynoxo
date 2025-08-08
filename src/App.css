@@ -13,3 +13,10 @@
    grid-template-columns: 1fr 5fr 5fr;
    row-gap: 10px;
 }
+
+
+
+.WeatherDetail_and_CitiesWeather {
+   display: grid;
+   gap: 28px;
+}

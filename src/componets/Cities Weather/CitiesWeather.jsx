@@ -9,10 +9,10 @@ export default class CitiesWeather extends Component {
                 <h1 className='CitiesWeather_heading'>Other Cities</h1>
                 <div className='CitiesWeather_btn'>Show All</div>
 
-                <CitiesWeatherCard />
-                <CitiesWeatherCard />
-                <CitiesWeatherCard />
-                <CitiesWeatherCard />
+                <CitiesWeatherCard uint="14°" H_L="H23° L10°" city="USA" />
+                <CitiesWeatherCard uint="16°" H_L="H23° L10°" city="USA" />
+                <CitiesWeatherCard  uint="18°" H_L="H23° L10°" city="USA" />
+                <CitiesWeatherCard uint="21°" H_L="H23° L10°" city="USA" />
             </div>
         )
     }

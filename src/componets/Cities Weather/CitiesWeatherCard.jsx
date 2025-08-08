@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import './CitiesWeatherCard.css'
 
-function CitiesWeatherCard() {
+function CitiesWeatherCard(props) {
 
     return (
         <div>
             <div className="CitiesCard">
-                
+                <h1 className='CitiesCard_uint'>{props.uint}</h1>
+                <p className='H_L'>{props.H_L}</p>
+                <h1 className='CitiesCard_city'>{props.city}</h1>
+                <img className='CitiesCard_image' src="/images/Sun.svg" alt="" />
             </div>
         </div>
     )
@@ -15,4 +18,4 @@ function CitiesWeatherCard() {
 
 
 
-export default  CitiesWeatherCard 
+export default CitiesWeatherCard 
