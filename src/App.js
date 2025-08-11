@@ -1,7 +1,7 @@
 
 import './App.css';
 import Header from './componets/Header/Header';
-import Search from './componets/Search Input/Search';
+// import Search from './componets/Search Input/Search';
 import WeatherCard from './componets/WeatherCard/WeatherCard';
 import Forecast from './componets/ForecastDetial/Forecast';
 import User from './componets/User Name/User';
@@ -20,7 +20,7 @@ function App() {
             <Header />
           </div>
           <div className="search_and_user">
-            < Search />
+            {/* < Search /> */}
             < WeatherCard />
             < Forecast />
           </div>
