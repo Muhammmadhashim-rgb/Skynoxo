@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState ,useEffect} from 'react';
 import './WeatherCard.css';
 import TemperatureCard from './TemperatureCard';
 import getWeather from '../ApI/Api';
@@ -10,12 +10,17 @@ function WeatherCard() {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState({});
 
-  const getWeatherByCity = async () => {
+  const getWeatherByCity = async (cityName) => {
     if (!city) return;
-    const weatherData = await getWeather(city);
+    const nameToSearch = cityName || city || "London"; // fallback to London
+    const weatherData = await getWeather(nameToSearch);
     setWeather(weatherData);
     setCity("");
   };
+
+  useEffect(() => {
+    getWeatherByCity("London");
+  }, []);
 
   return (
     <div>
@@ -41,8 +46,8 @@ function WeatherCard() {
               <img className="cloud" src="/images/cloud.svg" alt="" />
             </div>
 
-        
-<TemperatureCard weather={weather} />
+
+            <TemperatureCard weather={weather} />
 
           </div>
 
