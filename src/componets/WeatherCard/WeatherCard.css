@@ -64,7 +64,7 @@
 
 .temperture {
     position: relative;
-    margin-top: 45px;
+    margin-top: 25px;
 }
 
 .dayData {
@@ -93,12 +93,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: max-content;
 }
 
 .cloud {
     position: absolute;
-    left: 160px;
-    top: 50px;
+    left: 172px;
+    top: 52px;
 }
 
 
@@ -106,15 +107,15 @@
     position: absolute;
     width: 2rem;
     height: auto;
-    top: 45px;
+    top: 75px;
     right: 272px;
 
 }
 
 .sunny_cloudy {
-    margin-left: 60px;
-    margin-top: 28px;
-    width: 17rem;
+    margin-left: 170px;
+    margin-top: 82px;
+    width: 10rem;
     height: auto;
 }
 
@@ -129,7 +130,7 @@
     margin-bottom: 6px;
 }
 
-.highLow {
+.h-L {
     color: #FFF;
     font-family: Inter;
     font-size: 1rem;
@@ -140,8 +141,8 @@
 
 
 .feel_weather {
-    margin-left: 240px;
-    margin-top: 0px;
+    margin-left: 195px;
+    /* margin-top: 16px; */
     position: relative;
 
 }
@@ -152,6 +153,7 @@
     display: grid;
     grid-template-columns: 6fr 6fr;
     padding: 24px;
+    height: 340px;
 }
 
 
@@ -162,6 +164,7 @@
     gap: 1rem;
     align-items: start;
     margin-left: 15px;
+        position: relative;
 }
 
 .weatherCard_col_2 {
@@ -171,4 +174,16 @@
     /* gap: 1rem; */
     align-items: start;
     margin-right: 15px;
+}
+
+.weatherCard {
+    display: grid;
+    gap: 22px;
+}
+
+
+.error {
+   text-align: center;
+   color: red;
+   padding: 20px
 }

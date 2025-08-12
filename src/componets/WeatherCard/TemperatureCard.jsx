@@ -29,11 +29,7 @@ function TemperatureCard({ weather }) {
     };
   }, [isCelsius, cTemp, cHigh, cLow, cFeels]);
 
-  const iconCode = weather?.weather?.[0]?.icon;
-  const iconUrl = iconCode
-    ? `https://openweathermap.org/img/wn/${iconCode}@2x.png`
-    : '/images/default-weather.png';
-
+  
   if (!weather || !weather.main) {
     return null; // or a small placeholder / loader
   }
@@ -45,11 +41,12 @@ function TemperatureCard({ weather }) {
       </h1>
 
       <div className="temp-meta">
-        <img className="weather-icon" src={iconUrl} alt={weather?.weather?.[0]?.description || 'icon'} />
-        <div className="highLow">
-          <div><strong>High:</strong> {temp.high != null ? `${temp.high}°${isCelsius ? 'C' : 'F'}` : '—'}</div>
-          <div><strong>Low:</strong> {temp.low != null ? `${temp.low}°${isCelsius ? 'C' : 'F'}` : '—'}</div>
-          <div><small>Feels like: {temp.feels != null ? `${temp.feels}°${isCelsius ? 'C' : 'F'}` : '—'}</small></div>
+        <div  className="h-L">
+          
+          <span>High: {temp.high != null ? `${temp.high}°${isCelsius ? 'C' : 'F'}` : '—'}</span>
+          &nbsp;  &nbsp;
+          <span > Low: {temp.low != null ? `${temp.low}°${isCelsius ? 'C' : 'F'}` : '—'}</span>
+          
         </div>
       </div>
 

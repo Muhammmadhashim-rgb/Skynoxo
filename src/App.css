@@ -5,7 +5,7 @@
 .search_and_user {
    display: grid;
    /* grid-template-columns: 1fr 1fr; */
-   gap: 28px;
+   gap: 30px;
 }
 
 .main_row {
@@ -20,3 +20,10 @@
    display: grid;
    gap: 28px;
 }
+
+
+
+
+
+
+
