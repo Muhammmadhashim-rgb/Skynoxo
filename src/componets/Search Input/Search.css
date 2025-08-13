@@ -26,3 +26,8 @@
   height: 20px;
   pointer-events: none;
 }
+
+
+@media screen and (max-width: 480px) {
+  
+}

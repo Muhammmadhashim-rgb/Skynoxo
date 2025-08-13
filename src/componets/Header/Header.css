@@ -50,3 +50,28 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 480px) {
+
+  .header {
+    display: none; /* Hide navigation on smaller screens */
+  }
+}

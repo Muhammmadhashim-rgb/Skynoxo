@@ -26,4 +26,30 @@
 
 
 
+@media screen and (max-width: 480px) {
 
+
+   .main_container {
+      padding: 40px;
+   }
+
+   /* .search_and_user {
+         display: grid;
+         gap: 30px;
+      } */
+
+   .main_row {
+      display: grid;
+      grid-template-columns: auto;
+      gap: 105px;
+   }
+
+
+   /* 
+      .WeatherDetail_and_CitiesWeather {
+         display: grid;
+         gap: 28px;
+      } */
+
+
+}
