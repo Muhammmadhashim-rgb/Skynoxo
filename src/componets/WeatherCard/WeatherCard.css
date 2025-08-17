@@ -187,3 +187,15 @@
    color: red;
    padding: 20px
 }
+
+
+
+
+@media screen and (max-width: 480px) {
+    .weatherCard_row {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 24px;
+    height: 340px;
+}
+}

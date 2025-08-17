@@ -30,7 +30,7 @@
 
 
    .main_container {
-      padding: 40px;
+      padding: 0px;
    }
 
    /* .search_and_user {
@@ -41,15 +41,24 @@
    .main_row {
       display: grid;
       grid-template-columns: auto;
-      gap: 105px;
    }
 
 
-   /* 
+   
       .WeatherDetail_and_CitiesWeather {
          display: grid;
          gap: 28px;
-      } */
+         /* margin: 30px;/ */
+      }
+
+
+
+   .search_and_user {
+      display: grid;
+      /* grid-template-columns: 1fr 1fr; */
+      gap: 30px;
+      margin: 30px;
+   }
 
 
 }
