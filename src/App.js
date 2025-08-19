@@ -7,6 +7,7 @@ import Forecast from './componets/ForecastDetial/Forecast';
 import User from './componets/User Name/User';
 import WeatherDetail from './componets/WeatherDetail/WeatherDetail';
 import CitiesWeather from './componets/Cities Weather/CitiesWeather';
+import Menu from './componets/Side Menu/Menu';
 
 function App() {
 
@@ -17,8 +18,16 @@ function App() {
       <div className="main_container">
         <div className="main_row">
           <div className="header_row">
-            <Header />
+            <Header className="header" />
+
+
+          
+          
+          <div className="Menu">
+            <Menu />
           </div>
+          </div>
+
           <div className="search_and_user">
             {/* < Search /> */}
             < WeatherCard />

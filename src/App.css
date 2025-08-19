@@ -23,6 +23,11 @@
 
 
 
+.Menu{
+   display: none;
+}
+
+
 
 
 
@@ -59,6 +64,13 @@
       gap: 30px;
       margin: 30px;
    }
+
+   
+.Menu{
+   display:contents;
+   margin-left: 12px;
+}
+
 
 
 }
