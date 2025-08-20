@@ -88,3 +88,40 @@
     left: 163px;
     bottom: 12px;
 }
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .CitiesWeather_row {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: min-content;
+        margin-left: 140px;
+        margin-top: -14px;
+        gap: 20px;
+        position: relative;
+    }
+
+
+    .CitiesWeather_btn {
+    display: inline-flex;
+    padding: 0.625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.875rem;
+    background: #0E1421;
+    color: #676B73;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* width: 130px; */
+    margin-left: 100px;
+    cursor: default;
+
+}
+}

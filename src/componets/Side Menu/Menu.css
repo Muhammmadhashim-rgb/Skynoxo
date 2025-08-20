@@ -1,32 +1,41 @@
-/* Hide Checkbox */
 .menu-toggle {
   display: none;
 }
 
-/* Sidebar (hidden by default) */
+
+
+
+
+.menu-toggle:checked~.menu_content {
+  left: 0;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 35px;
+  padding-top: 45px;
+  z-index: 1100;
+  position: relative;
+}
+
+
+
 .menu_content {
-  position: fixed;
+  position: absolute;
   top: 0;
-  left: -250px;
-  width: 250px;
-  height: 100%;
-  background: #fff;
-  box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+  left: -325px;
+  width: 281px;
+  height: 140rem;
+  background: #0E1421;
+  /* box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2); */
   padding: 20px;
   transition: left 0.3s ease;
   z-index: 1000;
 }
-
-/* When checkbox is checked → show menu */
-.menu-toggle:checked ~ .menu_content {
-  left: 0;
-}
-
-/* Menu Icon (hamburger) */
-.menu-icon {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px;
-  z-index: 1100;
-  position: relative;
 }

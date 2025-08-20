@@ -32,3 +32,19 @@
     /* position: absolute;
     top: 11%; */
 }
+
+@media screen and (max-width: 480px) {
+    .boxBackground {
+    /* display: flex; */
+    
+    /* width: 14rem; */
+    /* height: 12rem; */
+    padding: 0.1rem 1rem;
+    align-items: center;
+    gap: 6.25rem;
+    border-radius: 1.25rem;
+    background: #0E1421;
+    cursor: default;
+}
+
+}

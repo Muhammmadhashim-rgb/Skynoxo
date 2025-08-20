@@ -23,7 +23,7 @@
 
 
 
-.Menu{
+.Menu {
    display: none;
 }
 
@@ -46,30 +46,32 @@
    .main_row {
       display: grid;
       grid-template-columns: auto;
+      gap: 42px;
    }
 
 
-   
-      .WeatherDetail_and_CitiesWeather {
-         display: grid;
-         gap: 28px;
-         /* margin: 30px;/ */
-      }
+
+   .WeatherDetail_and_CitiesWeather {
+      display: grid;
+      gap: 75px;
+      /* margin: 30px;/ */
+   }
 
 
 
    .search_and_user {
       display: grid;
       /* grid-template-columns: 1fr 1fr; */
-      gap: 30px;
+      gap: 55px;
       margin: 30px;
+      margin-top: 0px;
    }
 
-   
-.Menu{
-   display:contents;
-   margin-left: 12px;
-}
+
+   .Menu {
+      display: contents;
+      margin-left: 12px;
+   }
 
 
 

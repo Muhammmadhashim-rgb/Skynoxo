@@ -198,4 +198,10 @@
     padding: 24px;
     height: 340px;
 }
+
+.weatherCard {
+    display: grid;
+    gap: 44px;
+;
+}
 }

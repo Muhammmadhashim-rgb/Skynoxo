@@ -11,14 +11,14 @@
 }
 
 .SearchInput {
-    height: 100%;
-    padding: 1rem;
-    border: none;
-    outline: none;
-    background: transparent;
-    color: white;
-    width: 86%;
-    font-size: 1rem;
+  height: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  width: 86%;
+  font-size: 1rem;
 }
 
 .search-icon {
@@ -29,5 +29,30 @@
 
 
 @media screen and (max-width: 480px) {
-  
+  .search {
+    display: flex;
+    align-items: center;
+    width: 35rem;
+    height: 5rem;
+    border-radius: 3.125rem;
+    background: #0E1421;
+    padding-left: 1.8rem;
+  }
+
+  .SearchInput {
+    height: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    width: 86%;
+    font-size: 1.7rem;
+  }
+
+  .search-icon {
+    width: 35px;
+    height: 35px;
+    pointer-events: none;
+  }
 }
