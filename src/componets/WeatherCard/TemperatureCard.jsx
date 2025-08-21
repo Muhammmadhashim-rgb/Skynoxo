@@ -44,7 +44,7 @@ function TemperatureCard({ weather }) {
         <div  className="h-L">
           
           <span>High: {temp.high != null ? `${temp.high}°${isCelsius ? 'C' : 'F'}` : '—'}</span>
-          &nbsp;  &nbsp;
+          &nbsp;
           <span > Low: {temp.low != null ? `${temp.low}°${isCelsius ? 'C' : 'F'}` : '—'}</span>
           
         </div>

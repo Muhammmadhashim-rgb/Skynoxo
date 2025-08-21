@@ -3,6 +3,7 @@ import "./Menu.css";
 
 export default function Menu() {
   return (
+    
     <div>
       {/* Hidden Checkbox */}
       <input type="checkbox" id="menu-toggle" className="menu-toggle" />
