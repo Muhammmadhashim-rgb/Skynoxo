@@ -11,7 +11,7 @@ import Menu from './componets/Side Menu/Menu';
 
 function App() {
 
-console.log();
+  console.log();
 
 
   return (
@@ -20,17 +20,13 @@ console.log();
         <div className="main_row">
           <div className="header_row">
             <Header className="header" />
-
-
-          
-          
-          <div className="Menu">
-            <Menu />
-          </div>
+            <div className="Menu">
+              <Menu />
+            </div>
           </div>
 
           <div className="search_and_user">
-            {/* < Search /> */}
+            
             < WeatherCard />
             < Forecast />
           </div>

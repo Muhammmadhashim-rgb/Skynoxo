@@ -6,3 +6,17 @@
     /* margin-left: 45px; */
      position: relative;
 }
+
+
+
+@media screen and (max-width: 480px) {
+    .CitiesCard {
+    width: 17rem;
+    height: 10rem;
+    border-radius: 1.5625rem;
+    background: #0E1421;
+    /* margin-left: 45px; */
+    position: relative;
+}
+}
+

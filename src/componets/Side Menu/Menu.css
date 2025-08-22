@@ -1,41 +1,132 @@
-.menu-toggle {
-  display: none;
+/* Hamburger Icon Base */
+.menu {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 25px;
+  cursor: default;
 }
 
+.menu span {
+  margin: 0 auto;
+  position: relative;
+  top: 12px;
+}
 
+.menu span,
+.menu span:before,
+.menu span:after {
+  width: 38px;
+  height: 4px;
+  background-color: #742BEC;
+  display: block;
+  transition: 0.3s ease;
+  content: '';
+}
 
+.menu span:before {
+  position: absolute;
+  margin-top: -10px;
+}
 
+.menu span:after {
+  position: absolute;
+  margin-top: 10px;
+}
 
-.menu-toggle:checked~.menu_content {
+/* Default State → 3 lines */
+.menu-toggle:not(:checked) + .menu-icon .menu span {
+  background-color: #742BEC;
+}
+
+.menu-toggle:not(:checked) + .menu-icon .menu span:before {
+  transform: rotate(0) translateY(0);
+}
+
+.menu-toggle:not(:checked) + .menu-icon .menu span:after {
+  transform: rotate(0) translateY(0);
+}
+
+/* Checked State → Cross (X) */
+.menu-toggle:checked + .menu-icon .menu span {
+  background-color: transparent;
+}
+
+.menu-toggle:checked + .menu-icon .menu span:before {
+  transform: rotate(45deg);
+  margin-top: 0;
+}
+
+.menu-toggle:checked + .menu-icon .menu span:after {
+  transform: rotate(-45deg);
+  margin-top: 0;
+}
+
+/* Side Menu */
+.menu_content {
+  position: fixed;
+  top: 0;
+  left: -325px; /* hidden by default */
+  width: 281px;
+  background: #0E1421;
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  height: 100%;
+}
+
+/* Checkbox checked → show menu */
+.menu-toggle:checked ~ .menu_content {
   left: 0;
 }
 
+.menu-toggle {
+  display: none; /* hide checkbox */
+}
 
+
+
+.menu_content ul li:hover {
+  color: #00c6ff;
+}
+
+.mobile_logo{
+      width: 48px;
+    margin-left: 447px;
+    margin-bottom: 8px;
+}
+
+
+
+/* Overlay base */
+/* .menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 900; 
+} */
+
+/* Show when menu is open */
+/* .menu-overlay.show {
+  opacity: 1;
+  pointer-events: all; */
 
 
 
 @media screen and (max-width: 480px) {
   .menu-icon {
-  cursor: pointer;
-  display: inline-block;
-  padding-left: 35px;
-  padding-top: 45px;
-  z-index: 1100;
-  position: relative;
-}
-
-
-
-.menu_content {
-  position: absolute;
-  top: 0;
-  left: -325px;
-  width: 281px;
-  height: 140rem;
-  background: #0E1421;
-  /* box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2); */
-  padding: 20px;
-  transition: left 0.3s ease;
-  z-index: 1000;
-}
+    cursor: default;
+    display: inline-block;
+    padding-left: 22px;
+    padding-top: 45px;
+    z-index: 1100;
+    position: relative;
+  }
 }

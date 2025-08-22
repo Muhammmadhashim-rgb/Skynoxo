@@ -11,7 +11,7 @@ function WeatherCard() {
   const [weather, setWeather] = useState({});
   const [error, setError] = useState("");
 
-   const getWeatherByCity = async (cityName) => {
+  const getWeatherByCity = async (cityName) => {
     setError(""); // clear previous error
     const nameToSearch = cityName || city || "London";
 
@@ -44,7 +44,7 @@ function WeatherCard() {
 
   return (
     <div className='weatherCard'>
-      {/* Search input */}
+ 
       <Search
         value={city}
         onChange={(e) => setCity(e.target.value)}
@@ -53,10 +53,11 @@ function WeatherCard() {
 
 
 
-   
+
+
 
       {/* Weather info */}
-     
+
       {/* Weather Card OR Error Card */}
       <div className="weatherCard_row background">
         {error ? (

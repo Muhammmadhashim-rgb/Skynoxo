@@ -1,28 +1,31 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Search.css';
-
 
 function Search({ value, onChange, onSearch }) {
 
-
-   const handleKeyDown = (a) => {
-      if (a.key === 'Enter') {
-         onSearch();
+   const handleKeyDown = (e) => {
+      if (e.key === 'Enter') {
+         onSearch(value);
       }
    }
 
    return (
-      <div className='search'>
-         <img className='search-icon' src="/images/search.svg" alt="" />
-         <input className='SearchInput px-4' value={value}
+      <div className="search">
+         <img className="search-icon" src="/images/search.svg" alt="Search" />
+         <input
+            id="search-city"
+            name="search-city"
+            className="SearchInput"
+            value={value}
             onChange={onChange}
-            onKeyDown={handleKeyDown} type="search" placeholder='Search City...' />
-         {/* <button onClick={onSearch}>Search</button> */}
-      </div>
+            onKeyDown={handleKeyDown}
+            type="search"
+            placeholder="Search City..."
+            
+         />
 
+      </div>
    )
 }
 
-
-
-export default Search 
+export default Search;

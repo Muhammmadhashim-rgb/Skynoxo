@@ -46,7 +46,7 @@
    .main_row {
       display: grid;
       grid-template-columns: auto;
-      gap: 42px;
+      gap:20px;
    }
 
 

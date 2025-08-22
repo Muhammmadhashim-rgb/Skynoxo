@@ -202,7 +202,7 @@
 
     .weatherCard {
         display: grid;
-        gap: 44px;
+        gap: 32px;
         ;
     }
 
@@ -271,8 +271,19 @@
         align-items: start;
         margin-left: 15px;
         position: relative;
+        width: 50%;
     }
 
+
+    .weatherCard_col_2 {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    /* location, date, cloud */
+    /* gap: 1rem; */
+    align-items: start;
+    margin-right: 15px;
+    width: 50%;
+    }
 
 
     .h-L {
@@ -283,6 +294,8 @@
         font-weight: 400;
         line-height: normal;
         margin-top: 20px;
+                width: 130%;
+
     }
 
 .cloudSmall {
