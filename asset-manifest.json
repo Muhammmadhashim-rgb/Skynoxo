@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Skynoxo/static/css/main.fa98662c.css",
+    "main.css": "/Skynoxo/static/css/main.e8b309d6.css",
     "main.js": "/Skynoxo/static/js/main.d79459b9.js",
     "static/js/453.3f17aac0.chunk.js": "/Skynoxo/static/js/453.3f17aac0.chunk.js",
     "index.html": "/Skynoxo/index.html",
-    "main.fa98662c.css.map": "/Skynoxo/static/css/main.fa98662c.css.map",
+    "main.e8b309d6.css.map": "/Skynoxo/static/css/main.e8b309d6.css.map",
     "main.d79459b9.js.map": "/Skynoxo/static/js/main.d79459b9.js.map",
     "453.3f17aac0.chunk.js.map": "/Skynoxo/static/js/453.3f17aac0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa98662c.css",
+    "static/css/main.e8b309d6.css",
     "static/js/main.d79459b9.js"
   ]
 }
