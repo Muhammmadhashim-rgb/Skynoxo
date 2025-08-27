@@ -7,7 +7,7 @@ export default class User extends Component {
          <div className='userNameDropDown'>
             <div className='user'>
                <nav className="navbar">
-                  <img src="/images/user_icon.svg" alt="User Icon" />
+                  <img src={process.env.PUBLIC_URL +"/images/user_icon.svg"} alt="User Icon" />
                   <h1 className='userHeading'>User Name</h1>
 
 
@@ -15,7 +15,7 @@ export default class User extends Component {
                      <input type="checkbox" id="dropdownToggle" hidden />
 
                      <label htmlFor="dropdownToggle">
-                        <img className="Dropdown" src="/images/DropDown.svg" alt="Dropdown Icon" />
+                        <img className="Dropdown" src={process.env.PUBLIC_URL +"/images/DropDown.svg"} alt="Dropdown Icon" />
                      </label>
 
                      <div className="dropdown-content">

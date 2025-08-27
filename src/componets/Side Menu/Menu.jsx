@@ -34,13 +34,13 @@ export default function Menu() {
       {/* Side Menu */}
       <div className="menu_content">
         <div className="menu_icons">
-          <img className='icon_menu' src="/images/header icon 1.svg" alt="header icon 1" />
-          <img className='icon_menu' src="/images/header icon 2.svg" alt="header icon 2" />
-          <img className='icon_menu' src="/images/header icon 3.svg" alt="header icon 3" />
-          <img className='icon_menu' src="/images/header icon 4.svg" alt="header icon 4" />
-          <img className='icon_menu' src="/images/header icon 5.svg" alt="header icon 5" />
+          <img className='icon_menu' src={process.env.PUBLIC_URL +"/images/header-icon-1.svg"} alt="header icon 1" />
+          <img className='icon_menu' src={process.env.PUBLIC_URL +"/images/header-icon-2.svg"} alt="header icon 2" />
+          <img className='icon_menu' src={process.env.PUBLIC_URL +"/images/header-icon-3.svg"} alt="header icon 3" />
+          <img className='icon_menu' src={process.env.PUBLIC_URL +"/images/header-icon-4.svg"} alt="header icon 4" />
+          <img className='icon_menu' src={process.env.PUBLIC_URL +"/images/header-icon-5.svg"} alt="header icon 5" />
         </div>
-        <img className='menu_arrow_right' src="/images/header icon 6.svg" alt="" />
+        <img className='menu_arrow_right' src={process.env.PUBLIC_URL +"/images/header-icon-6.svg"} alt="" />
       </div>
 
       {/* Overlay */}
@@ -49,7 +49,7 @@ export default function Menu() {
         onClick={() => setIsOpen(false)}
       ></div>
 
-      <img className="mobile_logo" src="/images/logo.png" alt="logo" />
+      <img className="mobile_logo" src={process.env.PUBLIC_URL +"/images/logo.png"} alt="logo" />
       <ToggleSwitch id="mobileMode" />
     </div>
   );

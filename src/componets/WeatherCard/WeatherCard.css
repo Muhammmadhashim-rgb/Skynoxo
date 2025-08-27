@@ -5,10 +5,10 @@
     /* padding: 1.8125rem 1.6875rem; */
     flex-direction: column;
     /* align-items: flex-start; */
-    gap:6rem;
+    gap: 6rem;
     background-color: #0E1421;
     border-radius: 2rem;
-    width: min-content;
+    /* width: min-content; */
 }
 
 
@@ -165,7 +165,7 @@
     align-items: start;
     margin-left: 15px;
     position: relative;
-        width: max-content;
+    width: max-content;
 }
 
 .weatherCard_col_2 {
@@ -186,13 +186,20 @@
 .error {
     text-align: center;
     color: red;
-    padding: 20px
+    padding: 137px 0px
 }
 
 
 
 
 @media screen and (max-width: 480px) {
+
+    .error {
+        padding: 0px 0px;
+        width: max-content;
+    }
+
+
     .weatherCard_row {
         display: grid;
         grid-template-columns: 6fr 6fr;

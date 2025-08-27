@@ -68,14 +68,14 @@ function WeatherCard() {
           <>
             <div className="weatherCard_col_1">
               <div className="loction">
-                <img src="/images/location_icon.svg" alt="" />
+                <img src={process.env.PUBLIC_URL +"/images/location_icon.svg"} alt="" />
                 <h1>{weather.name}</h1>
               </div>
 
               <div className="dayData">
                 <h1 className="day">{weather.dt ? new Date(weather.dt * 1000).toLocaleDateString("en-US", { weekday: "long" }) : ""}</h1>
                 <p className="dataa"> {weather.dt ? new Date(weather.dt * 1000).toLocaleDateString("en-US", { day: "numeric", month: "short", year: "numeric" }) : ""}</p>
-                <img className="cloud" src="/images/cloud.svg" alt="" />
+                <img className="cloud" src={process.env.PUBLIC_URL +"/images/cloud.svg"} alt="" />
               </div>
 
               <TemperatureCard weather={weather} />
@@ -88,7 +88,7 @@ function WeatherCard() {
                 <div className="highLow">
                   Feel like {weather.main.feels_like}°C
                 </div>
-                <img className="cloudSmall" src="/images/cloud.svg" alt="" />
+                <img className="cloudSmall" src={process.env.PUBLIC_URL +"/images/cloud.svg"} alt="" />
               </div>
             </div>
           </>

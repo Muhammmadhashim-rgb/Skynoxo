@@ -14,13 +14,13 @@ export default class Forecast extends Component {
 
                <h1 className='Forecast_heading'>Today / Week</h1>
                <div className=" oneHoureForecast_row oneHoureForecast">
-                  <TimeForecast time="1PM" icon="/images/time_Cloud.svg" unit="20" />
-                  <TimeForecast time="2PM" icon="/images/time_Cloud.svg" unit="21" />
-                  <TimeForecast time="3PM" icon="/images/time_Cloud.svg" unit="18" />
-                  <TimeForecast time="4PM" icon="/images/time_Cloud.svg" unit="23" />
-                  <TimeForecast time="5PM" icon="/images/time_Cloud.svg" unit="27" />
-                  <TimeForecast time="6PM" icon="/images/time_Cloud.svg" unit="30" />
-                  <TimeForecast time="7PM" icon="/images/time_Cloud.svg" unit="19" />
+                  <TimeForecast time="1PM" icon={process.env.PUBLIC_URL +"/images/time_cloud.svg"} unit="20" />
+                  <TimeForecast time="2PM" icon={process.env.PUBLIC_URL +"/images/time_cloud.svg"} unit="21" />
+                  <TimeForecast time="3PM" icon={process.env.PUBLIC_URL +"/images/time_cloud.svg"} unit="18" />
+                  <TimeForecast time="4PM" icon={process.env.PUBLIC_URL +"/images/time_cloud.svg"} unit="23" />
+                  <TimeForecast time="5PM" icon={process.env.PUBLIC_URL +"/images/time_cloud.svg"} unit="27" />
+                  <TimeForecast time="6PM" icon={process.env.PUBLIC_URL +"/images/time_cloud.svg"} unit="30" />
+                  <TimeForecast time="7PM" icon={process.env.PUBLIC_URL +"/images/time_cloud.svg"} unit="19" />
                </div>
                <div className="tomorrow_Forecast">
                   <h1 className='tomorrow_Forecast_heading'>
@@ -32,7 +32,7 @@ export default class Forecast extends Component {
                   <h2 className='tomorrow_Forecast_unit'>
                      14°
                   </h2>
-                  <img className='thunderstorm_cloud' src="/images/thunderstorm_cloud.gif" alt="" />
+                  <img className='thunderstorm_cloud' src={process.env.PUBLIC_URL +"/images/thunderstorm_cloud.gif"} alt="" />
                </div>
 
             </div>
