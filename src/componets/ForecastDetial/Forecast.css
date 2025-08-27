@@ -287,7 +287,7 @@
    .Forecast-row {
       display: grid;
       grid-template-columns: 12fr;
-      padding: 24px 24px 316px 24px;
+      padding: 27px 45px 329px 45px;
       gap: 10px
    }
 
@@ -295,7 +295,7 @@
    .Forecast_heading {
       color: #FFF;
       font-family: Inter;
-      font-size: 1.9rem;
+      font-size: 2rem;
       font-style: normal;
       font-weight: 300;
       line-height: normal;
@@ -306,7 +306,7 @@
       display: grid;
       grid-template-columns: auto auto auto auto auto auto auto;
       margin-top: -22px;
-      gap: 11px;
+      gap: 15px;
    }
 
 
@@ -474,5 +474,10 @@
    margin: 0;
    margin-left: 100px;
    margin-top: -31px;
+}
+
+.forecast-col_1 {
+   margin-left: -5px;
+
 }
 }

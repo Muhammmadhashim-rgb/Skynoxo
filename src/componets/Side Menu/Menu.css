@@ -4,7 +4,7 @@
   display: inline-block;
   width: 30px;
   height: 30px;
-  margin: 25px;
+  margin: 37px 25px 15px 25px;
   cursor: default;
 }
 
@@ -17,48 +17,49 @@
 .menu span,
 .menu span:before,
 .menu span:after {
-  width: 38px;
-  height: 4px;
+  width: 65px;
+  height: 7px;
   background-color: #742BEC;
   display: block;
   transition: 0.3s ease;
   content: '';
+  border-radius: 32px;
 }
 
 .menu span:before {
   position: absolute;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .menu span:after {
   position: absolute;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 /* Default State → 3 lines */
-.menu-toggle:not(:checked) + .menu-icon .menu span {
+.menu-toggle:not(:checked)+.menu-icon .menu span {
   background-color: #742BEC;
 }
 
-.menu-toggle:not(:checked) + .menu-icon .menu span:before {
+.menu-toggle:not(:checked)+.menu-icon .menu span:before {
   transform: rotate(0) translateY(0);
 }
 
-.menu-toggle:not(:checked) + .menu-icon .menu span:after {
+.menu-toggle:not(:checked)+.menu-icon .menu span:after {
   transform: rotate(0) translateY(0);
 }
 
 /* Checked State → Cross (X) */
-.menu-toggle:checked + .menu-icon .menu span {
+.menu-toggle:checked+.menu-icon .menu span {
   background-color: transparent;
 }
 
-.menu-toggle:checked + .menu-icon .menu span:before {
+.menu-toggle:checked+.menu-icon .menu span:before {
   transform: rotate(45deg);
   margin-top: 0;
 }
 
-.menu-toggle:checked + .menu-icon .menu span:after {
+.menu-toggle:checked+.menu-icon .menu span:after {
   transform: rotate(-45deg);
   margin-top: 0;
 }
@@ -67,8 +68,9 @@
 .menu_content {
   position: fixed;
   top: 0;
-  left: -325px; /* hidden by default */
-  width: 281px;
+  left: -325px;
+  /* hidden by default */
+  width: 165px;
   background: #0E1421;
   padding: 20px;
   transition: left 0.3s ease;
@@ -77,12 +79,13 @@
 }
 
 /* Checkbox checked → show menu */
-.menu-toggle:checked ~ .menu_content {
+.menu-toggle:checked~.menu_content {
   left: 0;
 }
 
 .menu-toggle {
-  display: none; /* hide checkbox */
+  display: none;
+  /* hide checkbox */
 }
 
 
@@ -91,34 +94,58 @@
   color: #00c6ff;
 }
 
-.mobile_logo{
-      width: 48px;
-    margin-left: 447px;
-    margin-bottom: 8px;
+.mobile_logo {
+    width: 55px;
+    margin-left: 505px;
+    margin-bottom: -15px;
 }
 
 
 
+
 /* Overlay base */
-/* .menu-overlay {
+.menu-overlay {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  background: rgb(70 69 69 / 0%);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
-  z-index: 900; 
-} */
+  z-index: 900;
+}
 
 /* Show when menu is open */
-/* .menu-overlay.show {
+.menu-overlay.show {
   opacity: 1;
-  pointer-events: all; */
+  pointer-events: all;
+
+}
+
+.menu_icons {
+  display: grid;
+  gap: 60px;
+  margin: 300px 20px 50px 35px;
+}
 
 
+.icon_menu {
+  width: 70px;
+}
+
+
+.menu_arrow_right{
+  width: 70px; 
+  margin-top: 270px;
+  margin-left: 35px;
+}
+
+
+.menu-grid{
+  margin-bottom: 45px;
+}
 
 @media screen and (max-width: 480px) {
   .menu-icon {

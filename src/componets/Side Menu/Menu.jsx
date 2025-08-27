@@ -8,9 +8,9 @@ export default function Menu() {
   // Scroll lock handler
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = "hidden"; // disable scroll
+      document.body.style.overflow = "hidden"; 
     } else {
-      document.body.style.overflow = ""; // reset scroll
+      document.body.style.overflow = "";
     }
   }, [isOpen]);
 
@@ -33,12 +33,14 @@ export default function Menu() {
 
       {/* Side Menu */}
       <div className="menu_content">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Contact</li>
-        </ul>
+        <div className="menu_icons">
+          <img className='icon_menu' src="/images/header icon 1.svg" alt="header icon 1" />
+          <img className='icon_menu' src="/images/header icon 2.svg" alt="header icon 2" />
+          <img className='icon_menu' src="/images/header icon 3.svg" alt="header icon 3" />
+          <img className='icon_menu' src="/images/header icon 4.svg" alt="header icon 4" />
+          <img className='icon_menu' src="/images/header icon 5.svg" alt="header icon 5" />
+        </div>
+        <img className='menu_arrow_right' src="/images/header icon 6.svg" alt="" />
       </div>
 
       {/* Overlay */}

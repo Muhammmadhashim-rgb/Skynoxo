@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './Header.css';  // ✅ CSS File Imported
+import './Header.css';  
 import ToggleSwitch from './ToggleSwitch';
 
 

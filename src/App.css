@@ -1,5 +1,5 @@
 .main_container {
-   padding: 40px;
+   padding: 60px 65px;
 }
 
 .search_and_user {
@@ -10,8 +10,8 @@
 
 .main_row {
    display: grid;
-   grid-template-columns: 1fr 5fr 5fr;
-   row-gap: 10px;
+   grid-template-columns: auto 4fr 6fr;
+   gap: 68px;
 }
 
 
@@ -27,6 +27,17 @@
    display: none;
 }
 
+
+@media (min-width: 769px) and (max-width: 1366px) {
+
+
+   .WeatherDetail_and_CitiesWeather {
+      display: grid;
+      gap: 28px;
+      padding-right: 70px;
+   }
+
+}
 
 
 
@@ -46,7 +57,7 @@
    .main_row {
       display: grid;
       grid-template-columns: auto;
-      gap:20px;
+      gap: 20px;
    }
 
 

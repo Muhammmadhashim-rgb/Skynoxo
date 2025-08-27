@@ -86,9 +86,8 @@ input:checked+.label .moon {
   .label {
     width: 95px;
     height: 44px;
-    
-        margin-top: -95px;
-        margin-left: 622px;
+    margin-top: -82px;
+    margin-left: 690px;
   }
 
   /* Circle */
@@ -128,5 +127,5 @@ input:checked+.label .moon {
     fill: #fff;
   }
 
-  
+
 }

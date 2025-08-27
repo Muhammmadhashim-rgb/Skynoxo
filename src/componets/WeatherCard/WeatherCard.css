@@ -5,12 +5,12 @@
     /* padding: 1.8125rem 1.6875rem; */
     flex-direction: column;
     /* align-items: flex-start; */
-    gap: 6.25rem;
+    gap:6rem;
     background-color: #0E1421;
     border-radius: 2rem;
-    /* /* margin-top: 21px; */
-
+    width: min-content;
 }
+
 
 .loction {
     display: flex;
@@ -165,6 +165,7 @@
     align-items: start;
     margin-left: 15px;
     position: relative;
+        width: max-content;
 }
 
 .weatherCard_col_2 {
@@ -276,13 +277,13 @@
 
 
     .weatherCard_col_2 {
-    display: grid;
-    grid-template-rows: auto auto 1fr;
-    /* location, date, cloud */
-    /* gap: 1rem; */
-    align-items: start;
-    margin-right: 15px;
-    width: 50%;
+        display: grid;
+        grid-template-rows: auto auto 1fr;
+        /* location, date, cloud */
+        /* gap: 1rem; */
+        align-items: start;
+        margin-right: 15px;
+        width: 50%;
     }
 
 
@@ -294,11 +295,11 @@
         font-weight: 400;
         line-height: normal;
         margin-top: 20px;
-                width: 130%;
+        width: 130%;
 
     }
 
-.cloudSmall {
+    .cloudSmall {
         position: absolute;
         width: 2rem;
         height: auto;
@@ -306,7 +307,7 @@
         right: 262px;
     }
 
-.cloudSmall {
+    .cloudSmall {
         position: absolute;
         width: 2rem;
         height: auto;
@@ -315,40 +316,40 @@
     }
 
 
-.feel {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 2.8rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
-    margin-bottom: 6px;
-}
+    .feel {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 2.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        margin-bottom: 6px;
+    }
 
 
-.highLow {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 1.3rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: max-content;
-}
+    .highLow {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: max-content;
+    }
 
 
-.feel_weather {
-    margin-left: 170px;
-    margin-top: 12px;
-    position: relative;
-}
+    .feel_weather {
+        margin-left: 170px;
+        margin-top: 12px;
+        position: relative;
+    }
 
 
-.sunny_cloudy {
-    margin-left: 116px;
-    margin-top: 62px;
-    width: 14rem;
-    height: auto;
-}
+    .sunny_cloudy {
+        margin-left: 116px;
+        margin-top: 62px;
+        width: 14rem;
+        height: auto;
+    }
 }

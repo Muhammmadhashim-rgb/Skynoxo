@@ -6,7 +6,7 @@ function ToggleSwitch({ id = "mode" }) {
 
   const handleToggle = () => {
     setOn(!on);
-    document.body.style.backgroundColor = !on ? '#ffffff' : '#060C1A';
+    document.body.style.backgroundColor = !on ? '#748295' : '#060C1A';
   };
 
 

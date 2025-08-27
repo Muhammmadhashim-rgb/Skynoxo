@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: auto auto;
     width: min-content;
-    margin-left: 90px;
+    margin-left: 148px;
     margin-top: -14px;
     gap: 20px;
     position: relative;
+
 }
 
 
@@ -99,7 +100,7 @@
         display: grid;
         grid-template-columns: auto auto;
         width: min-content;
-        margin-left: 106px;
+        margin-left: 130px;
         margin-top: -14px;
         gap: 35px;
         position: relative;
