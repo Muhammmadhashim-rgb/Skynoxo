@@ -312,16 +312,16 @@
 
 
    .timeForecast_time {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 2.4rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0;
-    margin-top: 20px;
-    margin-left: 8px;
-}
+      color: #FFF;
+      font-family: Inter;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0;
+      margin-top: 8px;
+      margin-left: 8px;
+   }
 
    .tomorrow_Forecast {
       width: 24rem;
@@ -351,14 +351,15 @@
 
 
    .tomorrow_Forecast_para {
-        color: #676B73;
-        font-family: Inter;
-        font-size: 0.8rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin: 0;
-        margin-top: 6px;   }
+      color: #676B73;
+      font-family: Inter;
+      font-size: 0.8rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 0;
+      margin-top: 6px;
+   }
 
 
    .tomorrow_Forecast_unit {
@@ -375,16 +376,63 @@
 
 
    .thunderstorm_cloud {
-        width: 125px;
-        height: auto;
-        position: absolute;
-        bottom: 46px;
-        left: 272px;
+      width: 125px;
+      height: auto;
+      position: absolute;
+      bottom: 46px;
+      left: 272px;
 
    }
 
 
    .timeForecast_heading2 {
+      color: #676B73;
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0;
+      margin-top: -59px;
+      margin-left: 156px;
+   }
+
+   .timeForecast {
+      width: 38.5rem;
+      /* height: 85%; */
+      padding: 2rem 1.8rem;
+      /* align-items: center; */
+      border-radius: 1.5625rem;
+      background: #14203A;
+      margin-top: 33px;
+      margin-left: 0px;
+   }
+
+   .timeForecast_time2 {
+      color: #FFF;
+      font-family: Inter;
+      font-size: 2.4rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0;
+      margin-top: 4px;
+      margin-left: 155px;
+   }
+
+   .timeForecast_ampm2 {
+      color: #676B73;
+      font-family: Inter;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0;
+      margin-left: 306px;
+      margin-top: -31px;
+   }
+
+   .timeForecast_heading3 {
       color: #676B73;
       font-family: Inter;
       font-size: 1.5rem;
@@ -393,92 +441,47 @@
       line-height: normal;
       margin: 0;
       margin-top: -89px;
-      margin-left: 210px;
+      margin-left: 445px;
    }
 
-    .timeForecast {
-        width: 38.5rem;
-        /* height: 85%; */
-        padding: 2rem 1.8rem;
-        /* align-items: center; */
-        border-radius: 1.5625rem;
-        background: #14203A;
-        margin-top: 33px;
-        margin-left: 0px;
-    }
+   .timeForecast_time3 {
+      color: #FFF;
+      font-family: Inter;
+      font-size: 2.4rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0;
+      margin-top: 20px;
+      margin-left: 445px;
+   }
 
-    .timeForecast_time2 {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 2.4rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0;
-    margin-top: 20px;
-    margin-left: 210px;
-}
-.timeForecast_ampm2 {
-    color: #676B73;
-    font-family: Inter;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0;
-    margin-left: 306px;
-    margin-top: -31px;
-}
+   .timeForecast_heading {
+      color: #676B73;
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0;
+      margin-left: 8px;
+   }
 
-.timeForecast_heading3 {
-    color: #676B73;
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0;
-    margin-top: -89px;
-    margin-left: 445px;
-}
+   .timeForecast_ampm {
 
-.timeForecast_time3 {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 2.4rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0;
-    margin-top: 20px;
-    margin-left: 445px;
-}
+      color: #676B73;
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0;
+      margin-left: 93px;
+      margin-top: -27px;
+   }
 
-.timeForecast_heading {
-    color: #676B73;
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0;
-    margin-left: 8px;
-}
+   .forecast-col_1 {
+      margin-left: -5px;
 
-.timeForecast_ampm {
-   color: #676B73;
-   font-family: Inter;
-   font-size: 1.25rem;
-   font-style: normal;
-   font-weight: 500;
-   line-height: normal;
-   margin: 0;
-   margin-left: 100px;
-   margin-top: -31px;
-}
-
-.forecast-col_1 {
-   margin-left: -5px;
-
-}
+   }
 }
