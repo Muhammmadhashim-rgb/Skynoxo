@@ -84,18 +84,18 @@ input:checked+.label .moon {
 
 @media screen and (max-width: 480px) {
   .label {
-    width: 95px;
-    height: 44px;
+    width: 79px;
+    height: 36px;
     margin-top: -82px;
-    margin-left: 690px;
+    margin-left: 350px;
   }
 
   /* Circle */
   .label::after {
-    width: 35px;
-    height: 35px;
-    top: 5px;
-    left: 6px;
+    width: 30px;
+    height: 30px;
+    top: 3px;
+    left: 5px;
   }
 
 
@@ -104,8 +104,8 @@ input:checked+.label .moon {
 
   label svg {
     position: absolute;
-    width: 42px;
-    height: 34px;
+    width: 28px;
+    height: 28px;
   }
 
   .label .moon {
@@ -114,7 +114,7 @@ input:checked+.label .moon {
   }
 
   .label .sun {
-    left: 3px;
+    left: 6px;
     fill: #f5d742;
   }
 

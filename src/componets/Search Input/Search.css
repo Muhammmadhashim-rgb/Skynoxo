@@ -32,14 +32,14 @@
   .search {
     display: flex;
     align-items: center;
-    width: auto;
-    height: 5rem;
+    width: fit-content;
+    height: 4rem;
     border-radius: 3.125rem;
     background: #0E1421;
     padding-left: 1.8rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-top: -20px;
-    /* margin-left: 100px; */
+
   }
 
   .SearchInput {
@@ -50,12 +50,12 @@
     background: transparent;
     color: white;
     width: 86%;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 
   .search-icon {
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     pointer-events: none;
   }
 }

@@ -200,12 +200,25 @@
     }
 
 
+    .units {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+        margin-bottom: 6px;
+    }
+
     .weatherCard_row {
         display: grid;
         grid-template-columns: 6fr 6fr;
-        padding: 48px 25px 78px 24px;
+        padding: 24px 10px 24px 10px;
         height: auto;
         overflow: hidden;
+        width: fit-content;
+        gap: 65px;
     }
 
     .weatherCard {
@@ -217,7 +230,7 @@
 
     .loction {
         display: flex;
-        padding: 0rem 1rem;
+        /* padding: 0rem 1rem; */
         gap: 12px;
         border-radius: 3.125rem;
         background: #742BEC;
@@ -230,7 +243,7 @@
     .loction h1 {
         color: #FFF;
         font-family: Inter;
-        font-size: 1.8rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -240,13 +253,13 @@
 
     .loction img {
         margin-left: 0.3rem;
-        width: 28px;
+        width: 18px;
     }
 
     .day {
         color: #FFF;
         font-family: Inter;
-        font-size: 3rem;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -256,19 +269,19 @@
     .dataa {
         color: #FFF;
         font-family: Inter;
-        font-size: 1.4rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         margin: 0px;
-        margin-top: 20px;
+        margin-top: 6px;
     }
 
     .cloud {
         position: absolute;
-        left: 222px;
-        top: 65px;
-        width: 80px;
+        left: 120px;
+        top: 52px;
+        width: 55px;
     }
 
 
@@ -297,66 +310,61 @@
     .h-L {
         color: #FFF;
         font-family: Inter;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-top: 20px;
+        margin-top: 6px;
         width: 130%;
 
     }
 
-    .cloudSmall {
-        position: absolute;
-        width: 2rem;
-        height: auto;
-        top: 90px;
-        right: 262px;
-    }
 
     .cloudSmall {
         position: absolute;
-        width: 2rem;
+        width: 1.6rem;
         height: auto;
-        top: 90px;
-        right: 262px;
+        top: 50px;
+        right: 165px;
     }
 
 
     .feel {
         color: #FFF;
         font-family: Inter;
-        font-size: 2.8rem;
+        font-size: 1.8rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         margin: 0;
         margin-bottom: 6px;
+        margin-left: 25px;
     }
 
 
     .highLow {
         color: #FFF;
         font-family: Inter;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        width: max-content;
+        margin-left: 25px;
     }
 
 
     .feel_weather {
-        margin-left: 170px;
-        margin-top: 12px;
+        margin-left: 9px;
+        margin-top: -21px;
         position: relative;
     }
 
 
     .sunny_cloudy {
-        margin-left: 116px;
-        margin-top: 62px;
-        width: 14rem;
+        margin-left: -15px;
+        margin-top: 51px;
+        width: 11rem;
         height: auto;
+
     }
 }

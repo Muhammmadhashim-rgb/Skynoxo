@@ -17,23 +17,23 @@
 .menu span,
 .menu span:before,
 .menu span:after {
-  width: 65px;
-  height: 7px;
+  width: 50px;
+  height: 6px;
   background-color: #742BEC;
   display: block;
   transition: 0.3s ease;
   content: '';
-  border-radius: 32px;
+  border-radius: 86px;
 }
 
 .menu span:before {
   position: absolute;
-  margin-top: -20px;
+  margin-top: -12px;
 }
 
 .menu span:after {
   position: absolute;
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 /* Default State → 3 lines */
@@ -95,9 +95,9 @@
 }
 
 .mobile_logo {
-    width: 55px;
-    margin-left: 505px;
-    margin-bottom: -15px;
+  width: 38px;
+  margin-left: 210px;
+  margin-bottom: -7px;
 }
 
 
@@ -136,14 +136,14 @@
 }
 
 
-.menu_arrow_right{
-  width: 70px; 
+.menu_arrow_right {
+  width: 70px;
   margin-top: 270px;
   margin-left: 35px;
 }
 
 
-.menu-grid{
+.menu-grid {
   margin-bottom: 45px;
 }
 
@@ -151,8 +151,8 @@
   .menu-icon {
     cursor: default;
     display: inline-block;
-    padding-left: 22px;
-    padding-top: 45px;
+    padding-left: 10px;
+    padding-top: 10px;
     z-index: 1100;
     position: relative;
   }

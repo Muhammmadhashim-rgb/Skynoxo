@@ -57,9 +57,9 @@
 @media screen and (max-width: 480px) {
    .timeForacast_card {
       display: grid;
-      width: 4.9rem;
+      width: 3rem;
       /* padding: 0.625rem 0.5rem; */
-      gap: 30px;
+      gap: 10px;
       border-radius: 0.9375rem;
       border: 0.5px solid rgba(234, 234, 234, 0.54);
       background: rgba(255, 255, 255, 0.06);
@@ -81,7 +81,7 @@
    .Foracast_time {
       color: #FFF;
       font-family: Inter;
-      font-size: 1.3rem;
+      font-size: 0.8rem;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -93,7 +93,7 @@
    .timeForacast_unit {
       color: #FFF;
       font-family: Inter;
-      font-size: 1.3rem;
+      font-size: 0.8rem;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -103,7 +103,7 @@
    }
 
    .timeForacast_cloud {
-      height: 2.6rem;
+      height: 1.9rem;
       align-self: stretch;
       /* position: absolute; */
       top: 43%;
